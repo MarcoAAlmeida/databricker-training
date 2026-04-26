@@ -36,7 +36,7 @@ extra:
     - icon: simple/databricks
       link: https://dbc-dd629f8f-2581.cloud.databricks.com
       name: Databricks workspace
-    - icon: simple/amazonaws
+    - icon: fontawesome/brands/aws
       link: https://us-east-2.console.aws.amazon.com/console/home?region=us-east-2
       name: AWS Console
 
