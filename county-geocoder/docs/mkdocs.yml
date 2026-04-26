@@ -1,0 +1,6 @@
+site_name: County Geocoder
+
+docs_dir: .
+
+nav:
+  - Overview: index.md

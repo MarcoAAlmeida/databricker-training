@@ -40,9 +40,15 @@ extra:
       link: https://us-east-2.console.aws.amazon.com/console/home?region=us-east-2
       name: AWS Console
 
+plugins:
+  - search
+  - monorepo
+
 nav:
   - Home: index.md
-  - Progress: progress.md
   - References: references.md
+  - OpenSpec: openspec.md
+  - County Geocoder: '!include ./county-geocoder/docs/mkdocs.yml'
+  - SAM Analysis: '!include ./sam-analysis/docs/mkdocs.yml'
 
 docs_dir: docs

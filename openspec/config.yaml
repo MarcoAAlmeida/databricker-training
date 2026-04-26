@@ -1,0 +1,9 @@
+project:
+  name: databricks-training
+  stack: MkDocs, Material for MkDocs, GitHub Pages, Python
+  conventions:
+    - Databricks brand palette (FF3621 red, 1B2431 navy, DM Sans/Mono fonts)
+    - Docs live in docs/, skills in skills/<area>/SKILL.md
+    - requirements.txt stays minimal (mkdocs + mkdocs-material only)
+    - openspec/specs/ holds current behavior baselines by domain
+    - openspec/changes/ holds one folder per in-progress change

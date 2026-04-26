@@ -1,0 +1,25 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git add *)",
+      "Bash(git commit *)",
+      "Bash(git branch *)",
+      "Bash(git remote *)",
+      "Bash(git push *)",
+      "WebFetch(domain:pawamoy.github.io)",
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:alabaster.readthedocs.io)",
+      "WebFetch(domain:spring.io)",
+      "WebFetch(domain:marcoaalmeida.github.io)",
+      "WebFetch(domain:www.databricks.com)",
+      "Bash(gh run *)",
+      "mcp__plugin_github_github__get_me",
+      "Bash(openspec --version)",
+      "Read(//c/Users/marco/.claude/skills/**)",
+      "Read(//c/Users/marco/.databricks/aitools/skills/databricks-core/**)",
+      "Bash(openspec *)",
+      "Bash(pip install *)",
+      "Bash(python *)"
+    ]
+  }
+}

@@ -1,9 +1,12 @@
-# Databricks Training
+# Databricks Exploration
 
-A minimal sandbox for validating three things before building anything real:
+A monorepo for exploring Databricks capabilities across multiple subprojects, with development driven by an OpenSpec workflow.
 
-1. **Databricks connectivity** — can we reach the workspace and run a notebook?
-2. **Plugin configuration** — are the right tools installed and authenticated?
-3. **GitHub integration** — is the repo linked to the workspace and syncing correctly?
+## Subprojects
 
-See [Progress](progress.md) for the step-by-step checklist.
+- **County Geocoder** — resolves (lat, lng) coordinates to US counties
+- **SAM Analysis** — extracts wage and fringe benefit data from SAM.gov raw text files at scale
+
+## Development Process
+
+All feature work goes through an OpenSpec cycle — propose, implement, archive — keeping design decisions co-located with the code rather than scattered across wikis or chat history. See the [OpenSpec](openspec.md) page for details.

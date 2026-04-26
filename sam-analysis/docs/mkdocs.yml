@@ -1,0 +1,6 @@
+site_name: SAM Analysis
+
+docs_dir: .
+
+nav:
+  - Overview: index.md
