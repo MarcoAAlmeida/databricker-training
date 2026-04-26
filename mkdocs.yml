@@ -3,57 +3,19 @@ site_description: Hands-on Databricks training — connectivity, plugin setup, a
 site_url: https://marcoaalmeida.github.io/databricker-training/
 
 theme:
-  name: alabaster
+  name: material
+  palette:
+    primary: custom
+    accent: custom
+  font:
+    text: Inter
+    code: Source Code Pro
 
-extra:
-  # --- Typography (Spring uses Metropolis / clean system sans-serif) ---
-  font_family: "'Metropolis', 'Inter', 'Helvetica Neue', Arial, sans-serif"
-  head_font_family: "'Metropolis', 'Inter', 'Helvetica Neue', Arial, sans-serif"
-  code_font_family: "'Source Code Pro', 'Fira Mono', 'Consolas', monospace"
-  font_size: "16px"
-  code_font_size: "0.875em"
+extra_css:
+  - stylesheets/spring.css
 
-  # --- Spring color palette ---
-  # Spring green:   #6DB33F
-  # Dark charcoal:  #34302D
-  # Mid gray:       #5F5F5F
-  # Light bg:       #F5F5F5
-  # Link green:     #6DB33F
-  # Hover green:    #4D8A2A
-
-  body_text: "#34302D"
-  footer_text: "#5F5F5F"
-
-  link: "#6DB33F"
-  link_hover: "#4D8A2A"
-
-  sidebar_header: "#34302D"
-  sidebar_text: "#34302D"
-  sidebar_link: "#6DB33F"
-  sidebar_link_underscore: "#6DB33F"
-  sidebar_list: "#5F5F5F"
-  sidebar_hr: "#D4D4D4"
-
-  anchor: "#6DB33F"
-  anchor_hover_fg: "#FFFFFF"
-  anchor_hover_bg: "#4D8A2A"
-
-  pre_bg: "#34302D"
-  code_highlight: "#4D8A2A"
-
-  note_bg: "#EEF6E6"
-  note_border: "#6DB33F"
-  warn_bg: "#FFF8E6"
-  warn_border: "#F0A500"
-
-  # --- Layout ---
-  page_width: "1020px"
-  sidebar_width: "240px"
-  fixed_sidebar: true
-
-  # --- GitHub badge ---
-  github_user: MarcoAAlmeida
-  github_repo: databricker-training
-  github_banner: true
+nav:
+  - Home: index.md
+  - Progress: progress.md
 
 docs_dir: docs
