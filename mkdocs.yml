@@ -1,6 +1,8 @@
 site_name: Databricks Training
 site_description: Hands-on Databricks training — connectivity, plugin setup, and GitHub integration
 site_url: https://marcoaalmeida.github.io/databricker-training/
+repo_url: https://github.com/MarcoAAlmeida/databricker-training
+repo_name: MarcoAAlmeida/databricker-training
 
 theme:
   name: material
@@ -10,12 +12,37 @@ theme:
   font:
     text: DM Sans
     code: DM Mono
+  icon:
+    logo: simple/databricks
+    repo: fontawesome/brands/github
+  features:
+    - navigation.instant
+    - navigation.top
 
 extra_css:
   - stylesheets/databricks.css
 
+markdown_extensions:
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/MarcoAAlmeida/databricker-training
+      name: GitHub repo
+    - icon: simple/databricks
+      link: https://dbc-dd629f8f-2581.cloud.databricks.com
+      name: Databricks workspace
+    - icon: simple/amazonaws
+      link: https://us-east-2.console.aws.amazon.com/console/home?region=us-east-2
+      name: AWS Console
+
 nav:
   - Home: index.md
   - Progress: progress.md
+  - References: references.md
 
 docs_dir: docs
