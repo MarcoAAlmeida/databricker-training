@@ -23,3 +23,5 @@ Links used throughout this training. Will be organized by topic as the project g
 :simple-databricks: [Databricks](https://www.databricks.com/) — Databricks official site
 
 :fontawesome-brands-github: [Material for MkDocs](https://github.com/squidfunk/mkdocs-material) — this site's theme
+
+:fontawesome-brands-linkedin: [Marco Almeida](https://www.linkedin.com/in/marcoaasilva/) — LinkedIn
