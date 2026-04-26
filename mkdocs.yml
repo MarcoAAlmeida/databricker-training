@@ -1,0 +1,12 @@
+site_name: Databricks Training
+site_description: Hands-on Databricks training — connectivity, plugin setup, and GitHub integration
+site_url: https://marcoaalmeida.github.io/databricker-training/
+
+theme:
+  name: alabaster
+
+nav:
+  - Home: index.md
+  - Progress: progress.md
+
+docs_dir: docs
