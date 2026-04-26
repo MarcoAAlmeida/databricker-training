@@ -15,3 +15,11 @@ Links used throughout this training. Will be organized by topic as the project g
 :material-file-document: [SAM.gov](https://sam.gov/) — US federal contract opportunities
 
 :material-api: [OpenSpec](https://openspec.dev/#) — API specification tooling
+
+:fontawesome-brands-github: [OpenSpec repo](https://github.com/Fission-AI/OpenSpec) — Fission AI / OpenSpec source
+
+:fontawesome-brands-github: [Databricks Agent Skills](https://github.com/databricks/databricks-agent-skills) — official Databricks agent skills library
+
+:simple-databricks: [Databricks](https://www.databricks.com/) — Databricks official site
+
+:fontawesome-brands-github: [Material for MkDocs](https://github.com/squidfunk/mkdocs-material) — this site's theme
