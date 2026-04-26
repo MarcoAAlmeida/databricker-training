@@ -8,11 +8,11 @@ theme:
     primary: custom
     accent: custom
   font:
-    text: Inter
-    code: Source Code Pro
+    text: DM Sans
+    code: DM Mono
 
 extra_css:
-  - stylesheets/spring.css
+  - stylesheets/databricks.css
 
 nav:
   - Home: index.md
